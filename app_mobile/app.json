@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "app_mobile",
+    "slug": "app_mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyB12SUtRiYXP83XviTAd4e5UN15O_s-qEw"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB12SUtRiYXP83XviTAd4e5UN15O_s-qEw"
+        }
+      },
+      "package": "com.hossam1956.app_mobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "105b8adb-f18a-47b4-b997-179a32f97677"
+      }
+    }
+  }
+}
