@@ -11,4 +11,4 @@ visant à faciliter la découverte du riche patrimoine historique d’une ville.
 positionne comme un outil incontournable pour les habitants et les visiteurs souhaitant
 explorer en profondeur les monuments et sites historiques locaux.
 ## Architecture du projet
-![logo](img/architecture.png)
+![logo](img/architecture.jpg)
