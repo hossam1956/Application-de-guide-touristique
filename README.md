@@ -122,9 +122,8 @@ Les fichiers de modèles représentent les données de l'application. Ils défin
 ### Video Demostration
 ## Partie adminstrateur
 ## Partie mobile
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8VK-0s6c-Z0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+"https://www.youtube.com/embed/8VK-0s6c-Z0
 
 ## Contributeurs
 - LIQALI Issam ([GitHub](https://github.com/travolta11))
