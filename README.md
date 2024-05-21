@@ -66,7 +66,7 @@ volumes:
 Le projet front-end React JS est organisé autour de cinq parties principaux, chacun répondant à un objectif spécifique et contribuant à l'architecture globale et à la maintenabilité de l'application.
 
 ### 1. Login
-- **Objectif*** : Le composant LOGIN est responsable de la gestion de l'authentification des administrateurs dans l'application. Il vise à garantir la sécurité de l'accès à l'application en utilisant le protocole JWT (JSON Web Tokens).
+- ***Objectif*** : Le composant LOGIN est responsable de la gestion de l'authentification des administrateurs dans l'application. Il vise à garantir la sécurité de l'accès à l'application en utilisant le protocole JWT (JSON Web Tokens).
 - ***Fonctionnalité :*** Les administrateurs peuvent saisir leurs identifiants (nom d'utilisateur/email et mot de passe) dans des champs de formulaire.
 Lorsque l'administrateur soumet le formulaire, le composant LOGIN envoie une requête d'authentification au serveur.
 Le serveur vérifie les identifiants de l'administrateur et, s'ils sont valides, génère un jeton JWT contenant des informations sur le profil de l'administrateur (telles que son rôle, ses autorisations, etc.).
