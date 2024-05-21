@@ -124,8 +124,8 @@ Les fichiers de modèles représentent les données de l'application. Ils défin
 ##Partie mobile
 
 ## Contributeurs
-- LIQALI Issam ([GitHub](https://github.com/hossam1956))
-- CHALABI Hossam ([GitHub](https://github.com/travolta11))
+- LIQALI Issam ([GitHub](https://github.com/travolta11))
+- CHALABI Hossam ([GitHub](https://github.com/hossam1956))
 - JAAFARI CharafEddine ([GitHub](https://github.com/CharafEddineJaafari))
 - ERRABIH Abdelmoughit ([GitHub](https://github.com/AbdelmoughitERRABIH))
 - ABID Hanane ([GitHub](https://github.com/hananabid24))
