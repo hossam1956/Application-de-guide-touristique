@@ -123,6 +123,8 @@ Les fichiers de modèles représentent les données de l'application. Ils défin
 ## Partie adminstrateur
 ## Partie mobile
 
+https://github.com/hossam1956/Application-de-guide-touristique/blob/main/img/mobile.mp4
+
 ## Contributeurs
 - LIQALI Issam ([GitHub](https://github.com/travolta11))
 - CHALABI Hossam ([GitHub](https://github.com/hossam1956))
