@@ -67,9 +67,34 @@ Le projet front-end React JS est organisé autour de cinq parties principaux, ch
 
 ### 1. Login
 - ***Objectif*** : Le composant LOGIN est responsable de la gestion de l'authentification des administrateurs dans l'application. Il vise à garantir la sécurité de l'accès à l'application en utilisant le protocole JWT (JSON Web Tokens).
-- ***Fonctionnalité :*** Les administrateurs peuvent saisir leurs identifiants (nom d'utilisateur/email et mot de passe) dans des champs de formulaire.
-Lorsque l'administrateur soumet le formulaire, le composant LOGIN envoie une requête d'authentification au serveur.
-Le serveur vérifie les identifiants de l'administrateur et, s'ils sont valides, génère un jeton JWT contenant des informations sur le profil de l'administrateur (telles que son rôle, ses autorisations, etc.).
-Ce jeton JWT est renvoyé au client (le composant LOGIN) et stocké de manière sécurisée dans le localStorage du navigateur de l'administrateur.
-À partir de ce moment, l'administrateur est considéré comme authentifié et le jeton JWT est envoyé avec chaque requête suivante pour prouver son identité et ses autorisations.
-Le serveur peut alors vérifier la validité du jeton JWT pour autoriser ou non l'accès aux ressources protégées, en fonction des informations contenues dans le jeton.
+- ***Fonctionnalité*** : Les administrateurs saisissent leurs identifiants dans un formulaire de connexion. Le serveur authentifie ces identifiants et renvoie un jeton JWT stocké de manière sécurisée, qui est ensuite transmis avec chaque requête pour vérifier l'identité et les autorisations de l'administrateur.
+
+### 2. Tableau de bord
+- ***Objectif*** : Le composant Dashboard est responsable de la visualisation des statistiques clés de l'application, telles que les informations sur les monuments, les créateurs et les utilisateurs. Il a pour but de fournir aux administrateurs une vue d'ensemble de l'activité et de la performance de l'application.
+  
+- ***Fonctionnalité*** :Affichage du nombre total de monuments, d'utilisateurs et de créateurs Présentation de ces informations de manière synthétique et visuelle Mise à jour en temps réel des chiffres clés
+
+### 3. Createur
+- ***Objectif*** : Permettre aux administrateurs de gérer les informations des créateurs  enregistrés dans l'application.
+
+- ***Fonctionnalité*** : Ajouter, modifier et supprimer des créateurs, afficher la liste des créateurs avec filtres et lier les créateurs aux monuments qu'ils ont créés.
+
+### 4. Monument
+- ***Objectif*** : Permettre aux administrateurs de gérer les informations des monuments enregistrés dans l'application..
+
+- ***Fonctionnalité*** : Ajouter, modifier et supprimer des monuments, afficher la liste des monuments avec filtres, visualiser les détails d'un monument spécifique et lier les monuments à leurs créateurs.
+
+### 5. Tourist
+- ***Objectif*** : Permettre aux administrateurs de gérer  les comptes des tourists enregistrés dans l'application.
+
+- ***Fonctionnalité*** : Désactiver les comptes des tourists, afficher la liste des utilisateurs avec filtres, visualiser les détails d'un utilisateur spécifique et attribuer des rôles et autorisations aux utilisateurs.
+
+## Backend
+### Technologies Utilisées
+- Express JS
+- MySql
+## Structure du projet Backend
+Le backend développé avec Express.js est connecté à une base de données MySQL et est composé des modules suivants : les modèles (Admin, Avis, Createur, Monument, Tourist) définissant la structure des données, des contrôleurs  gérant la logique métier, et les routes (Routes) configurant les différents points d'accès de l'API.
+
+
+
