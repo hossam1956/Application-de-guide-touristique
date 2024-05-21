@@ -93,8 +93,17 @@ Le projet front-end React JS est organisé autour de cinq parties principaux, ch
 ### Technologies Utilisées
 - Express JS
 - MySql
+  
 ## Structure du projet Backend
-Le backend développé avec Express.js est connecté à une base de données MySQL et est composé des modules suivants : les modèles (Admin, Avis, Createur, Monument, Tourist) définissant la structure des données, des contrôleurs  gérant la logique métier, et les routes (Routes) configurant les différents points d'accès de l'API.
+Le backend développé avec Express.js est connecté à une base de données MySQL et est composé des modules suivants : les modèles (Admin, Avis, Createur, Monument, Tourist) définissant la structure des données, des contrôleurs  gérant la logique métier, et des routes configurant les différents points d'accès de l'API.
+
+### 1. com.example.routes
+Les fichiers de routes définissent les différents points d'accès de l'API, configurant les URL, les méthodes HTTP et les paramètres attendus pour chaque endpoint. Ils sont responsables du routage des requêtes vers les contrôleurs appropriés.
+### 2. com.example.controller
+Les fichiers de contrôleurs sont chargés de gérer les requêtes HTTP entrantes. Chaque contrôleur est dédié à une fonctionnalité ou une entité spécifique, exposant des endpoints RESTful. Ces fichiers interagissent directement avec les modèles pour traiter les requêtes et renvoyer les réponses appropriées.
+### 3. com.example.model
+Les fichiers de modèles représentent les données de l'application. Ils définissent la structure des données qui seront stockées dans la base de données MySQL. Chaque modèle correspond généralement à une table dans la base de données.
+
 
 
 
