@@ -120,8 +120,8 @@ Les fichiers de modèles représentent les données de l'application. Ils défin
    docker-compose up --build
    ```
 ### Video Demostration
-##Partie adminstrateur
-##Partie mobile
+## Partie adminstrateur
+## Partie mobile
 
 ## Contributeurs
 - LIQALI Issam ([GitHub](https://github.com/travolta11))
