@@ -123,7 +123,7 @@ Les fichiers de modèles représentent les données de l'application. Ils défin
 ## Partie adminstrateur
 ## Partie mobile
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/abcd1234" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[https://www.youtube.com/embed/abcd1234]
 
 
 ## Contributeurs
