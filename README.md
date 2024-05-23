@@ -130,7 +130,7 @@ Les fichiers de modèles représentent les données de l'application. Ils défin
 ![gestion_user](img/images_admin/desactiverUtilisateur.png)
 
 ## Partie mobile
-![login](img/images_mobile/LoginUser.png)
+![login](img/images_mobile/LoginUser.png=250x150)
 ![Signup](img/images_mobile/Signup.png)
 ![monument](img/images_mobile/monument.jpg)
 ![mosque_hassanII](img/images_mobile/hassanII.jpg)
