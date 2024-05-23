@@ -122,7 +122,6 @@ Les fichiers de modèles représentent les données de l'application. Ils défin
 ### Video Demostration
 ## Partie adminstrateur
 ## Partie mobile
-[![Partie mobile - YouTube](https://img.youtube.com/vi/8VK-0s6c-Z0/0.jpg)](https://www.youtube.com/watch?v=8VK-0s6c-Z0)
 
 ## Contributeurs
 - LIQALI Issam ([GitHub](https://github.com/travolta11))
