@@ -132,16 +132,11 @@ Les fichiers de modèles représentent les données de l'application. Ils défin
 ## Partie mobile
 <img src="img/images_mobile/LoginUser.png" width="250" height="500" />
 <img src="img/images_mobile/Signup.png" width="250" height="500" />
-<img src="img/images_mobile/monument.jpg" width="400" height="500" />
-<img src="img/images_mobile/hassanII.jpg" width="400" height="500" />
+<img src="img/images_mobile/monument.jpg" width="250" height="500" />
+<img src="img/images_mobile/hassanII.jpg" width="250" height="500" />
 <img src="img/images_mobile/createur.jpg" width="250" height="500" />
-<img src="img/images_mobile/koutoubia.jpg" width="400" height="500" />
-![Signup](img/images_mobile/Signup.png)
-![monument](img/images_mobile/monument.jpg)
-![mosque_hassanII](img/images_mobile/hassanII.jpg)
-![createur](img/images_mobile/createur.jpg)
-![koutoubia](img/images_mobile/koutoubia.jpg)
-![map](img/images_mobile/map.jpg)
+<img src="img/images_mobile/koutoubia.jpg" width="250" height="500" />
+
 
 
 
