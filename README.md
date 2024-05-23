@@ -121,9 +121,14 @@ Les fichiers de modèles représentent les données de l'application. Ils défin
    ```
 ### Video Demostration
 ## Partie adminstrateur
+![login](img/images_admin/login(1).png)
 ![dashboard](img/images_admin/Dashboard.png)
 ![gestion_Monument](img/images_admin/gestionMonument.png)
-![login](img/images_admin/login(1).png)
+![voir_monument](img/images_admin/voirMonument.png)
+![gestion_Createur](img/images_admin/gestionCreateur.png)
+![voir_createur](img/images_admin/VoirCreateur.png)
+![gestion_user](img/images_admin/desactiverUtilisateur.png)
+
 ## Partie mobile
 
 ## Contributeurs
