@@ -5,6 +5,11 @@
 - [Objectif générale du projet](#Objectif-générale-du-projet)
 - [Architecture du projet](#Architecture-du-projet)
 - [Docker Compose](#Docker-compose)
+- [Frontend](#Frontend) 
+- [Backend](#Backend)
+- [Images Demostration](#Images-Demostration)  
+- [Contributeurs](#Contributeurs)
+
 ## Objectif générale du projet
 Ce projet de guide touristique mobile représente une initiative ambitieuse et innovante
 visant à faciliter la découverte du riche patrimoine historique d’une ville. Axée sur l’accessibilité, l’exhaustivité des informations et l’interactivité, cette application mobile se
@@ -119,7 +124,7 @@ Les fichiers de modèles représentent les données de l'application. Ils défin
     ```bash
    docker-compose up --build
    ```
-### Video Demostration
+### Images Demostration
 ## Partie adminstrateur
 ![login](img/images_admin/login(1).png)
 ![dashboard](img/images_admin/Dashboard.png)
