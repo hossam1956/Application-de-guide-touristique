@@ -130,6 +130,18 @@ Les fichiers de modèles représentent les données de l'application. Ils défin
 ![gestion_user](img/images_admin/desactiverUtilisateur.png)
 
 ## Partie mobile
+![login](img/images_mobile/LoginUser.png)
+![Signup](img/images_mobile/Signup.png)
+![monument](img/images_mobile/monument.png)
+![mosque_hassanII](img/images_mobile/hassanII.png)
+![createur](img/images_mobile/createur.png)
+![koutoubia](img/images_mobile/koutoubia.png)
+![map](img/images_mobile/map.png)
+
+
+
+
+
 
 ## Contributeurs
 - LIQALI Issam ([GitHub](https://github.com/travolta11))
