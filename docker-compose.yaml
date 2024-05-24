@@ -1,7 +1,7 @@
-version: "3"
+version: "2.24.6"
 services:
  mysql:
-    image: mysql:latest
+    image: mysql:8
     container_name: hossam-mysql-1
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
@@ -12,11 +12,8 @@ services:
     ports:
       - "3306:3306"
  app_backend:
+  image: hossamchalabi/backend:latest
   container_name: app_backend
-  build:
-   context: ./app_backend
-   args:
-    - NODE_ENV=developement
   volumes:
    - ./app_backend:/app/backend:ro
   command: npm start
@@ -25,9 +22,8 @@ services:
   depends_on:
    - mysql
  app_frontend:
+  image: hossamchalabi/frontend:latest
   container_name: app_frontend
-  build:
-    context: ./app_front
   volumes:
     - ./app_front/src:/react/src:ro
   command: npm start
