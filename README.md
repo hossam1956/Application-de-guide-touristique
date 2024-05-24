@@ -20,10 +20,10 @@ explorer en profondeur les monuments et sites historiques locaux.
 Cette application touristique a été conçue avec une architecture moderne et évolutive. Le backend a été développé avec le framework Express.js, offrant une API robuste et sécurisée pour gérer les différentes fonctionnalités de l'application. La partie front-end admin a été construite avec React.js, une bibliothèque JavaScript puissante permettant de créer une interface utilisateur dynamique et interactive pour les administrateurs. Cela leur permet de gérer le contenu, les réservations et les informations des utilisateurs de manière efficace. Parallèlement, la partie mobile client a été développée en utilisant React Native, un framework permettant de créer des applications natives pour iOS et Android à partir d'un seul code base en JavaScript/TypeScript. Cela assure une expérience utilisateur fluide et cohérente sur les différents appareils mobiles, tout en partageant une grande partie du code entre les plateformes. Cette architecture modulaire offre de nombreux avantages, notamment en termes de maintenabilité, de scalabilité et de performance globale de l'application touristique.
 ## docker Compose
 ```yaml
-version: "3"
+version: "2.24.6"
 services:
  mysql:
-    image: mysql:latest
+    image: mysql:8
     container_name: hossam-mysql-1
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
@@ -34,11 +34,8 @@ services:
     ports:
       - "3306:3306"
  app_backend:
+  image: hossamchalabi/backend:latest
   container_name: app_backend
-  build:
-   context: ./app_backend
-   args:
-    - NODE_ENV=developement
   volumes:
    - ./app_backend:/app/backend:ro
   command: npm start
@@ -47,9 +44,8 @@ services:
   depends_on:
    - mysql
  app_frontend:
+  image: hossamchalabi/frontend:latest
   container_name: app_frontend
-  build:
-    context: ./app_front
   volumes:
     - ./app_front/src:/react/src:ro
   command: npm start
@@ -118,11 +114,11 @@ Les fichiers de modèles représentent les données de l'application. Ils défin
 2. **Veuillez Changer l'URL_API dans app_mobile/ServerLink.js et mettez votre address ip**
 3. **Demarrez Docker Desktop et lancez le docker-compose**
    ```bash
-   docker compose up --build
+   docker compose up
    ```
    OU
     ```bash
-   docker-compose up --build
+   docker-compose up
    ```
 ### Images Demostration
 ## Partie adminstrateur
