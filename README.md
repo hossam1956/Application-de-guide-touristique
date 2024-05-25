@@ -105,20 +105,25 @@ Les fichiers de contrôleurs sont chargés de gérer les requêtes HTTP entrante
 ### 3. .models
 Les fichiers de modèles représentent les données de l'application. Ils définissent la structure des données qui seront stockées dans la base de données MySQL. Chaque modèle correspond généralement à une table dans la base de données.
 
-## Lancer l'application en local:
+## Lancez l'application en local:
 1. **Cloner le Project:**
    ```bash
    git clone <repository_url>
    cd <project_folder>
    ```
-2. **Veuillez Changer l'URL_API dans app_mobile/ServerLink.js et mettez votre address ip**
-3. **Demarrez Docker Desktop et lancez le docker-compose**
+2. **Demarrez Docker Desktop et lancez le docker-compose**
    ```bash
    docker compose up
    ```
    OU
     ```bash
    docker-compose up
+   ```
+3. **Veuillez Changer l'URL_API dans app_mobile/ServerLink.js et mettez votre address ip**
+4. **Demarrez l'application mobile**
+   ```bash
+   cd app_mobile
+   npx expo start
    ```
 ### Images Demostration
 ## Partie adminstrateur
